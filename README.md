@@ -81,7 +81,7 @@ Plays an animation that corresponds to how fast the player is moving horizontall
 
 Flips the images for left movement.
 
-````haxe
+```haxe
 _shadow.exists = true;
 _shadow = new FlxSprite(boarder.x, boarder.y, "assets/images/shadow.png");
 _shadow.velocity.x = boarder.velocity.x;
@@ -116,4 +116,3 @@ It is also an easy addition to increase the chance of trees spawning which would
 ### Credit
 
 **Ben Puhalski. Game Programming - Lakehead**
-````
